@@ -28,11 +28,11 @@ This project includes the following CDNs:
 
 ## How to Use
 1. Open the `resume.html` file and add the necessary content. You can apply TailwindCSS using inline styles in the basic template.
-3. Replace the `logo.svg` with the logo of the company you are applying to and adjust the size of the logo appropriately.
+2. Replace the `logo.svg` with the logo of the company you are applying to and adjust the size of the logo appropriately.
    ```html
    <img src="./assets/logo.svg" alt="logo" class="w-{YOUR_LOGO_SIZE} ml-auto" />
-5. Open the completed `resume.html` file in a browser, right-click on the page, and open the print dialog.
-6. Go to the additional settings and choose a scale that ideally separates the sections of the resume, and adjust the margins if necessary.
+3. Open the completed `resume.html` file in a browser, right-click on the page, and open the print dialog.
+4. Go to the additional settings and choose a scale that ideally separates the sections of the resume, and adjust the margins if necessary.
 
 
 # 프로젝트 소개
@@ -67,6 +67,9 @@ project-root/
 2. `logo.svg`를 지원하는 회사의 로고로 변경하고 로고의 크기를 적절하게 수정합니다.
    ```html
    <img src="./assets/logo.svg" alt="logo" class="w-{로고_크기} ml-auto" />
-2. 작성된 `resume.html` 파일을 브라우저에서 열고, 페이지를 우클릭해 인쇄하기 대화상자를 켭니다.
-3. 기타 설정에 들어가 이력서의 항목이 이상적으로 구분되는 배율을 선택하고, 필요한 경우 여백을 조절합니다.
-   ![image](https://github.com/espressom/tailwind-notion-resume/assets/45090300/c1d06acf-99d8-4a20-86ed-5f7bf6caac14)
+3. 작성된 `resume.html` 파일을 브라우저에서 열고, 페이지를 우클릭해 인쇄하기 대화상자를 켭니다.
+4. 기타 설정에 들어가 이력서의 항목이 이상적으로 구분되는 배율을 선택하고, 필요한 경우 여백을 조절합니다.
+
+## Screenshots/Demo
+![image](https://github.com/espressom/tailwind-notion-resume/assets/45090300/dae606f7-1914-488f-a4be-e62ffe61d34e)
+
