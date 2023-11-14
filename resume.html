@@ -1,0 +1,226 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>홍길동 | Hong Gildong</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <style>
+      * {
+        font-family: "Pretendard Variable", sans-serif;
+        line-height: 1.8;
+      }
+
+      ul p,
+      ul li ul li {
+        margin-left: 21px;
+      }
+
+      body a {
+        text-decoration: underline;
+      }
+
+      mark {
+        color: black;
+      }
+
+      h1:not(#title)::before {
+        content: "";
+      }
+    </style>
+  </head>
+  <body>
+    <article class="page flex flex-col lg:mx-64 md:mx-32 mx-8">
+      <img src="./assets/logo.svg" alt="logo" class="w-14 ml-auto" />
+      <header class="space-y-8">
+        <h1 id="title" class="text-3xl font-bold">홍길동 | Hong Gildong</h1>
+        <div class="flex text-sm">
+          <div class="basis-1/4">
+            <p><strong>Email</strong></p>
+            <p><strong>Website</strong></p>
+            <p><strong>Github</strong></p>
+          </div>
+          <div class="basis-3/4">
+            <p>
+              <a href="mailto:honggildong@example.com">honggildong@example.com</a>
+            </p>
+            <p>
+              <a href="">https://honggildong.github.io/</a>
+            </p>
+            <p>
+              <a href="">https://github.com/honggildong</a>
+            </p>
+          </div>
+        </div>
+      </header>
+      <div class="space-y-8 my-8">
+        <div class="space-y-8">
+          <div>
+            <h1 class="text-2xl font-bold mb-2">
+              Work Experiences<mark class="bg-transparent">.</mark>
+            </h1>
+            <hr class="my-3" />
+            <div class="space-y-8">
+              <div>
+                <h3 class="font-bold text-lg">
+                  <a href="">주식회사 XX</a>
+                </h3>
+                <div class="flex">
+                  <div class="basis-1/4">
+                    <p>데이터 엔지니어</p>
+                    <p class="block-color-gray">20XX. XX - 20XX. XX</p>
+                  </div>
+                  <div class="space-y-8 basis-3/4">
+                    <div>
+                      <h3 class="font-bold text-lg">Web Analytics Dashboard</h3>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">Description</strong>
+                          <p>데이터 분석 및 시각화 대시보드를 개발했습니다.</p>
+                        </li>
+                      </ul>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">What did I do</strong>
+                          <ul class="list-inside">
+                            <li style="list-style-type: circle">
+                              사용자 행동 분석을 위한 대시보드 인터페이스 개발
+                            </li>
+                          </ul>
+                          <ul class="list-inside">
+                            <li style="list-style-type: circle">
+                              실시간 트래픽 데이터 시각화 기능 구현
+                            </li>
+                          </ul>
+                          <ul class="list-inside">
+                            <li style="list-style-type: circle">
+                              사용자 맞춤형 보고서 생성 기능 개발
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">Tech Stack</strong>
+                          <p>Angular, D3.js, Bootstrap</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">
+                  <a href="">주식회사 XX</a>
+                </h3>
+                <div class="flex">
+                  <div class="basis-1/4">
+                    <p>데이터 엔지니어(인턴)</p>
+                    <p class="block-color-gray">2022. 07</p>
+                  </div>
+                  <div class="basis-3/4">
+                    <div>
+                      <h3 class="font-bold text-lg">Social Media Analytics Tool</h3>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">Description</strong>
+                          <p>소셜 미디어 분석 도구의 프론트엔드를 개발했습니다.</p>
+                        </li>
+                      </ul>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">What did I do</strong>
+                          <ul class="list-inside">
+                            <li style="list-style-type: circle">
+                              사용자 감정 분석 및 트렌드 추적 인터페이스 개발
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="list-inside">
+                        <li class="list-disc">
+                          <strong class="font-bold">Tech Stack</strong>
+                          <p>Ember.js, Chart.js, Tailwind CSS</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold">Projects<mark class="bg-transparent">.</mark></h1>
+            <hr class="my-3" />
+            <p class="text-lg font-bold">
+              <a href="">Portfolio Website (portfolio.example.com)</a>
+            </p>
+            <ul class="list-inside">
+              <li class="list-disc">React와 Next.js를 활용하여 구축한 포트폴리오 사이트입니다.</li>
+            </ul>
+            <ul class="list-inside">
+              <li class="list-disc">
+                SSR(Server Side Rendering) 기능을 사용하여 검색 엔진 최적화를 강화했습니다.
+              </li>
+            </ul>
+            <ul class="list-inside">
+              <li class="list-disc">
+                Vercel을 통해 호스팅되며, 자동 배포 및 최적화된 성능을 제공합니다.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold">Certificates<mark class="bg-transparent">.</mark></h1>
+            <hr class="my-3" />
+            <div class="flex">
+              <div class="basis-1/4">
+                <p>20XX. XX</p>
+                <p>20XX. XX</p>
+                <p></p>
+              </div>
+              <div class="basis-3/4">
+                <p>Microsoft Certified: Azure Fundamentals</p>
+                <p>Cisco Certified Technician (CCT)</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold">ETC<mark class="bg-transparent">.</mark></h1>
+            <hr class="my-3" />
+            <ul class="list-inside">
+              <li class="list-disc">
+                <a href="">기술 세미나 및 워크샵 참석</a>
+                (20XX. XX)
+              </li>
+            </ul>
+            <ul class="list-inside">
+              <li class="list-disc">
+                <a href="">해커톤 참가 및 수상</a>
+                (20XX. XX)
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold">Education<mark class="bg-transparent">.</mark></h1>
+            <hr class="my-3" />
+            <div class="flex">
+              <div class="basis-1/4">
+                <p>20XX. XX - 20XX. XX</p>
+              </div>
+              <div class="basis-3/4">
+                <p>XX대학교 - 소프트웨어학과</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

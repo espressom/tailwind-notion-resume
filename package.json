@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-notion-resume",
+  "version": "1.0.0",
+  "description": "A lightweight resume format designed using HTML and Tailwind CSS CDN, developed to address the issues of font distortion and improper scaling when exporting resumes from Notion to PDF.",
+  "main": "resume.html",
+  "repository": "https://github.com/espressom/tailwind-notion-resume.git",
+  "keywords": [
+    "resume",
+    "pdf",
+    "print"
+  ],
+  "author": "peev",
+  "license": "MIT"
+}
